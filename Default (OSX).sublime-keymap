@@ -1,0 +1,49 @@
+[
+  {
+    "keys": ["alt+a", "<character>"],
+    "command": "goto_character",
+  },
+
+  {
+    "keys": ["alt+a", "alt+s", "<character>"],
+    "command": "goto_character",
+    "args": {
+      "extend": true
+    },
+  },
+
+  {
+    "keys": ["alt+a", "alt+d", "<character>"],
+    "command": "goto_character",
+    "args": {
+      "delete": true
+    },
+  },
+
+  {
+    "keys": ["alt+a", "alt+a", "<character>"],
+    "command": "goto_character",
+    "args": {
+      "backward": true
+    },
+  },
+
+  {
+    "keys": ["alt+a", "alt+a", "alt+s", "<character>"],
+    "command": "goto_character",
+    "args": {
+      "extend": true,
+      "backward": true,
+    },
+  },
+
+  {
+    "keys": ["alt+a", "alt+a", "alt+d", "<character>"],
+    "command": "goto_character",
+    "args": {
+      "delete": true,
+      "backward": true,
+    },
+  },
+
+]
