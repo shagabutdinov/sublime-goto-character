@@ -5,7 +5,7 @@ Go to given character. Like f<character> in vim.
 
 ### Demo
 
-![Demo](https://raw.github.com/shagabutdinov/sublime-goto-character/master/demo/demo.gif "Demo")
+![Demo](https://github.com/shagabutdinov/sublime-enhanced-demos/raw/master/goto_character.gif "Demo")
 
 
 ### Installation
@@ -74,6 +74,7 @@ plugin to skip several characters at once.
 | Select to character backward | alt+a, alt+a, alt+s, &lt;character&gt; |
 | Delete to character backward | alt+a, alt+a, alt+d, &lt;character&gt; |
 
-### Todo
 
-- Found character occurences highlighting
+### Dependencies
+
+None

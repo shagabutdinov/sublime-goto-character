@@ -2,6 +2,9 @@
   {
     "keys": ["alt+a", "<character>"],
     "command": "goto_character",
+    "context": [
+      {"key": "setting.sublime_enhanced_keybindings", "operator": "equal", "operand": true},
+    ]
   },
 
   {
@@ -10,6 +13,9 @@
     "args": {
       "extend": true
     },
+    "context": [
+      {"key": "setting.sublime_enhanced_keybindings", "operator": "equal", "operand": true},
+    ]
   },
 
   {
@@ -18,6 +24,9 @@
     "args": {
       "delete": true
     },
+    "context": [
+      {"key": "setting.sublime_enhanced_keybindings", "operator": "equal", "operand": true},
+    ]
   },
 
   {
@@ -26,6 +35,9 @@
     "args": {
       "backward": true
     },
+    "context": [
+      {"key": "setting.sublime_enhanced_keybindings", "operator": "equal", "operand": true},
+    ]
   },
 
   {
@@ -35,6 +47,9 @@
       "extend": true,
       "backward": true,
     },
+    "context": [
+      {"key": "setting.sublime_enhanced_keybindings", "operator": "equal", "operand": true},
+    ]
   },
 
   {
@@ -44,6 +59,9 @@
       "delete": true,
       "backward": true,
     },
+    "context": [
+      {"key": "setting.sublime_enhanced_keybindings", "operator": "equal", "operand": true},
+    ]
   },
 
 ]

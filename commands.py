@@ -1,7 +1,13 @@
 import re
 import sublime
 import sublime_plugin
-from Expression import expression
+
+try:
+  from Expression import expression
+except ImportError:
+  sublime.error_message("Dependency import failed; please read readme for " +
+   "GotoCharacter plugin for installation instructions; to disable this " +
+   "message remove this plugin")
 
 clean_required = False
 
