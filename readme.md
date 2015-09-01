@@ -77,4 +77,4 @@ plugin to skip several characters at once.
 
 ### Dependencies
 
-None
+* [Expression](https://github.com/shagabutdinov/sublime-expression)
