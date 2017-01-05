@@ -77,7 +77,7 @@ class GotoCharacter(sublime_plugin.TextCommand):
     matches = expression.find_matches(
       self.view,
       sel.b,
-      '.(' + re.escape(character) + ')',
+      '[^'+re.escape(character)+'](' + re.escape(character) + ')',
       match_options
     )
 
